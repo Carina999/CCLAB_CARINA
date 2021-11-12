@@ -1,0 +1,109 @@
+
+
+
+body{
+  font-family: "Gill Sans";
+  background-color: black;
+
+  font-weight: bold;
+}
+
+h1{
+  word-spacing: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  text-shadow: lightblue 2.6px 0 2px;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+a{
+  color:#99ccff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family:CASTELLAR;
+}
+a:link {
+  color: #f1daf1;
+}
+
+a:visited {
+  color: #cce6ff;
+}
+
+a:hover {
+color:#b3b3ff;
+transition: color 1s ease-in-out;
+}
+
+a:active {
+  color: #aa80ff;
+}
+
+
+.info_text{
+  color: white;
+  font-size:30px;
+  text-shadow: lightblue 2.6px 0 3px;
+}
+
+.info_text2{
+  color: white;
+  font-size:40px;
+  text-shadow: lightblue 2.6px 0 3px;
+}
+
+
+.ha{
+  font-size: 20px;
+  color: 	#99ccff;
+}
+
+.imgs2{
+  margin-left: 100px;
+}
+
+
+.imgs1{
+    float:left;
+    margin-left: 100px;
+}
+.lyrics{
+    float:right;
+    width:45%;
+}
+.bbb{
+  line-height: 30px;
+  text-shadow: white 1px 0 3px;
+
+}
+.container{
+  width: 70%;
+  margin:auto;
+
+}
+.ga{
+background: radial-gradient(circle, rgba(142,119,178,1) 0%, rgba(46,9,121,1) 71%, rgba(2,0,36,1) 97%);
+}
+.center{
+  margin-left: 280px;
+}
+
+
+.pp{
+  font-size: 20px;
+  color: white;
+}
+.meaning{
+  font-size: 14px;
+  color: #adcceb;
+}
+
+#big{
+  font-size: 27px;
+}
