@@ -1,0 +1,6 @@
+#rect{
+  width: 100px;
+  height: 200px;
+  background-color: pink;
+  transition: all 1s;
+}
