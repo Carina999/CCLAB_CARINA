@@ -4,9 +4,8 @@ body{
 #container{
   margin: 10px;
   display: block;
-  /* display: inline-block; */
   position: relative;
-  left: -130px;
+  left: 60px;
   top: 200px;
 }
 
@@ -26,12 +25,20 @@ text-shadow: lightblue 1.5px 0 1.5px;
   color:black;
 }
 #heading{
+  text-align: center;
   font-size: 80px;
   font-family: "Blackadder ITC";
   color: rgb(28, 134, 238);
   text-shadow: lightblue 1.5px 0 1.5px;
 }
+.posi{
+  margin-left:360px;
+  /* float: left;
+  width: 50%; */
+
+}
 button {
+
   cursor: pointer;
   color: white;
   padding: 16px 32px;
