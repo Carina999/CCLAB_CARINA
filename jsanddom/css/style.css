@@ -1,6 +1,57 @@
-#rect{
-  width: 100px;
-  height: 200px;
-  background-color: pink;
-  transition: all 1s;
+body{
+  background-color: black;
+}
+#container{
+  margin: 10px;
+  display: block;
+  /* display: inline-block; */
+  position: relative;
+  left: -130px;
+  top: 200px;
+}
+
+#sliders{
+  position: relative;
+  left: 800px;
+  top: -240px;
+}
+span{
+font-size: 35px;
+font-family: "Blackadder ITC";
+color: rgb(28, 134, 238);
+text-shadow: lightblue 1.5px 0 1.5px;
+}
+#bb{
+  font-family: "Blackadder ITC";
+  color:black;
+}
+#heading{
+  font-size: 80px;
+  font-family: "Blackadder ITC";
+  color: rgb(28, 134, 238);
+  text-shadow: lightblue 1.5px 0 1.5px;
+}
+button {
+  cursor: pointer;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+
+}
+
+ #round1{
+  float:left;
+  background-color:rgb(28, 134, 238);
+  color: black;
+  border: 2px solid rgb(28, 134, 238);
+  border-radius: 30px;
+}
+
+ #round1:hover {
+  background-color: white;
+  color: darkblue;
 }
