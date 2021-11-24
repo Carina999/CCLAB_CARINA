@@ -6,7 +6,7 @@ function NewWindow() {
 
 
 let sliderc,slider1,slider2,slider3,sliderr,sliderb;
-
+// haha
 function setup() {
   let cc = createCanvas(600,600);
   cc.parent("container");
