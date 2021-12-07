@@ -218,19 +218,16 @@ class doctorha {
       if (keyCode == 37) {
         this.x -= 4;
       }
-      if (keyCode == 38) {
-        this.y -= 4;
-      }
-
-
-
+      // if (keyCode == 38) {
+      //   this.y -= 4;
+      // }
 
     }
-    // else {
-    //   let volume = mics.getLevel();
-    //   let gg = map(volume, 0.2, 0.4, 1, 3);
-    //   this.y -= gg;
-    // }
+    else {
+      let volume = mics.getLevel();
+      let gg = map(volume, 0.2, 0.4, 1, 3);
+      this.y -= gg;
+    }
     this.x = constrain(this.x, 0 - 23, 682);
     this.y = constrain(this.y, -80, 400);
     this.spdy += this.ay;
