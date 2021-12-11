@@ -15,7 +15,6 @@ function setup() {
   cc.parent("container");
   oh = document.getElementById("oh");
   con = document.getElementById("raffle");
-console.log("cc");
 }
 
 function ohplay(){

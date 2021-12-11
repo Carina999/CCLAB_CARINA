@@ -9,10 +9,14 @@ let crylr = [];
 let posx, posy;
 let counter;
 
+function raffle(){
+  window.open("abouta.html", "_parent");
+}
+
 function setup() {
   let cc = createCanvas(800, 600);
   cc.parent("container");
-  cc.mousePressed(userStartAudio);
+  // cc.mousePressed(userStartAudio);
   mics = new p5.AudioIn();
   mics.start();
 
@@ -253,7 +257,6 @@ class crycry999 {
     this.change = true;
     this.wasChanged = false;
   }
-
   happy() {
     this.wasChanged = false;
     if (dist(this.x, this.y, posx, posy) < 30) {
@@ -264,7 +267,6 @@ class crycry999 {
       this.change = false;
     }
   }
-
   circle() {
     if (this.change == true) {
       push();
