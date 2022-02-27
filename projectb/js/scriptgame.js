@@ -229,7 +229,7 @@ class doctorha {
     }
     else {
       let volume = mics.getLevel();
-      let gg = map(volume, 0.2, 0.4, 1, 3);
+      let gg = map(volume, 0.1, 0.4, 2, 3);
       this.y -= gg;
     }
     this.x = constrain(this.x, 0 - 23, 682);
