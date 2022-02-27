@@ -188,7 +188,7 @@ function drawsstate1() {
 }
 
 function drawsstate2() {
-  background(181, 173, 235);
+  background(255);
   textSize(35);
   textStyle(BOLD);
   fill(0);
