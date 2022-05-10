@@ -1,12 +1,15 @@
-alert("Are you ready to be an artist?");
+// alert("Are you ready to be an artist?");
 function NewWindow() {
-  window.open("https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7mbf75J_0AhXP0pYKHeFBDeYYABADGgJ0bA&ae=2&ohost=www.google.com&cid=CAASE-RohkY_PBAWCryk8kkrlcu9V5M&sig=AOD64_0OI3dun1OSpRDf1JCUwLQLF88Lag&q&adurl&ved=2ahUKEwik4a_75J_0AhUnk1YBHcHRBbMQ0Qx6BAgGEAE", "_blank", "width=800,height=800" );
-}
 
+  window.open("https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7mbf75J_0AhXP0pYKHeFBDeYYABADGgJ0bA&ae=2&ohost=www.google.com&cid=CAASE-RohkY_PBAWCryk8kkrlcu9V5M&sig=AOD64_0OI3dun1OSpRDf1JCUwLQLF88Lag&q&adurl&ved=2ahUKEwik4a_75J_0AhUnk1YBHcHRBbMQ0Qx6BAgGEAE", "_blank", "width=80,height=80, left=100,top=100");
+
+}
 
 
 let sliderc,slider1,slider2,slider3,sliderr,sliderb;
 // haha
+
+
 function setup() {
   let cc = createCanvas(600,600);
   cc.parent("container");
@@ -16,9 +19,19 @@ slider2js = document.getElementById("slider2");
 slider3js = document.getElementById("slider3");
 sliderrjs = document.getElementById("sliderr");
 sliderbjs = document.getElementById("sliderb");
+// let posi = document.getElementsByClassName("posi")
 
+let posi = document.getElementById('posi');
+posi.addEventListener('mouseover', onMouseOverButton);
 
 }
+
+function onMouseOverButton() {
+  this.style.top = random(-270, 270)+'px';
+  this.style.left = random(-270, 270)+'px';
+  this.style.transition = "0.4s";
+}
+
 
 function draw() {
   background(0, 20);

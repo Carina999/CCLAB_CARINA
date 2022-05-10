@@ -257,7 +257,7 @@ visibility: visible;
 
 
 .glass #onee{
-visibility: visible;
+/* visibility: visible; */
   position: absolute;
   left: 5%;
   top:100px;
@@ -271,7 +271,7 @@ visibility: visible;
   visibility: hidden;
 }
 .glass #twoo{
-  visibility: visible;
+  /* visibility: visible; */
   position: absolute;
   left: 36.5%;
   top:100px;
