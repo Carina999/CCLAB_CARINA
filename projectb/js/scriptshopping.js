@@ -19,7 +19,6 @@ function setup(){
     this.style.left = random(-200, 200)+'px';
     this.style.transition = "1.7s";
   }
-
   function change1() {
     document.getElementById("one").style.visibility = "hidden";
     document.getElementById("onee").style.visibility = "visible";
